@@ -1,0 +1,14 @@
+.home {
+    display: flex;
+    .homeContainer {
+        flex: 5;
+        
+        .widgets {
+            background-color: rgba(235,243,254,255);
+            height: 100%;
+            .pages {
+                padding: 20px;
+            }
+        }
+    }
+}

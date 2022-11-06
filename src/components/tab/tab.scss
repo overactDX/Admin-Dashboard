@@ -1,0 +1,31 @@
+.MuiPagination-ul {
+  display: flex;
+  justify-content: center;
+  padding: 2rem !important;
+  font-size: 12px;
+}
+.Table {
+  margin-top: 20px;
+}
+
+.head-table {
+  .card {
+    display: flex;
+    justify-content: end;
+  }
+  .select {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    height: 20px;
+    width: 100%;
+  }
+  .card-sum {
+    background: #f8f8f8;
+    border-radius: 30px;
+    padding: 10px 30px 10px 30px;;
+  }
+}
+

@@ -1,0 +1,67 @@
+.sidebar {
+    flex: 1;
+    border-right: 0.5px solid rgb(83, 113, 197);
+    min-height: 100vh;
+    background: linear-gradient(180deg, #045ec4 9%, #FFFFFF 95%);
+  
+    .top {
+      height: 150px;
+      display: flex;
+      align-items: center;
+  
+      .logo {
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+      }
+    }
+  
+    hr {
+      height: 0;
+      border: 0.5px solid rgb(230, 227, 227);
+    }
+  
+    .center {
+      padding-left: 10px;
+      
+  
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        .title {
+          font-size: 10px;
+          font-weight: bold;
+          color: #999;
+          margin-top: 15px;
+          margin-bottom: 5px;
+        }
+  
+        li {
+          display: flex;
+          padding: 5px;
+          align-items: center;
+          cursor: pointer;
+          &:hover {
+            background-color:#0b75ee;
+            color: black;
+          }
+  
+          .icon {
+            font-size: 24px;
+            color: white;
+
+          }
+  
+          span{
+              font-size: 18px;
+              font-weight: 400;
+              color: white;
+              margin-left: 10px;
+              text-align: center;
+          }
+        }
+      }
+    }
+  }
